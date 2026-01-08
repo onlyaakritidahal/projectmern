@@ -58,9 +58,9 @@ function App() {
           </div>
 
           <div className="image-column">
-            {/* Replace with your actual image path */}
+            
             <img 
-              src="https://via.placeholder.com/300x400" 
+              src="/img2.jpg" 
               alt="Skincare Products" 
               className="product-img" 
             />
