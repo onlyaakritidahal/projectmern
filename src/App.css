@@ -1,0 +1,141 @@
+/* Google font for that handwritten feel */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+.page-wrapper {
+  min-height: 100vh;
+  /* Soft to Dark Pink Gradient */
+  background: linear-gradient(180deg, #fbc2eb 0%, #a18cd1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+}
+
+.main-container {
+  background-color: white;
+  width: 90%;
+  max-width: 1000px;
+  border: 3px solid black;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
+}
+
+/* Header Box */
+.header-box {
+  background-color: #ffc1cc; /* Light pink header */
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.brand-info h1 {
+  margin: 0;
+  color: #d81b60;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Content Layout */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.description {
+  color: #e91e63;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.social-links {
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: block;
+  color: #e91e63;
+  text-decoration: underline;
+}
+
+.divider {
+  border: none;
+  border-top: 3px solid black;
+  margin: 20px 0;
+  width: 80%;
+}
+
+/* Login Form Styles */
+.login-section h3 {
+  color: #e91e63;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  width: 80px;
+  color: #e91e63;
+}
+
+.form-group input {
+  border: 1px solid #d81b60;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.login-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Image styling */
+.product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+  .header-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-links {
+    margin-top: 15px;
+  }
+}
