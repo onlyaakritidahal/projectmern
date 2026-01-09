@@ -60,7 +60,7 @@ function App() {
           <div className="image-column">
             
             <img 
-              src="/img2.jpg" 
+              src="./img2.jpg" 
               alt="Skincare Products" 
               className="product-img" 
             />
